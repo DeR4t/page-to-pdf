@@ -4,10 +4,10 @@ Page to PDF is a local Chrome and Edge extension that extracts the main content 
 
 ## Install
 
-1. Extract the ZIP. You can skip this step if you already have the `Page to PDF` folder.
+1. Clone the repository or download and extract its ZIP.
 2. Open `chrome://extensions` in Chrome or `edge://extensions` in Edge.
 3. Turn on **Developer mode** and choose **Load unpacked**.
-4. Select the `Page to PDF` folder containing `manifest.json`.
+4. Select the folder containing `manifest.json`.
 
 ## Use
 
@@ -20,4 +20,8 @@ The layout is simplified for reading. The extension works with HTML already load
 
 Page content is processed in the browser without an upload service. The preview may request images from their original URLs. The extension uses temporary access to the active tab after you click its action.
 
-Main content is identified with [Mozilla Readability 0.6.0](https://github.com/mozilla/readability/releases/tag/0.6.0), bundled under the Apache 2.0 license in `vendor/LICENSE.md`.
+## License
+
+Page to PDF is licensed under the [Apache License, Version 2.0](LICENSE).
+
+The extension bundles [Mozilla Readability 0.6.0](https://github.com/mozilla/readability/releases/tag/0.6.0) under the same license. Its original copyright and license notice are preserved in [vendor/LICENSE.md](vendor/LICENSE.md). See [NOTICE](NOTICE) for attribution.
