@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Page to PDF</title>
+  <link rel="stylesheet" href="preview.css">
+  <script src="preview.js" defer></script>
+</head>
+<body>
+  <header class="toolbar">
+    <div class="toolbar-inner">
+      <div class="brand">
+        <img src="icons/page-48.png" alt="" width="32" height="32">
+        <span>Page to PDF</span>
+      </div>
+      <button id="save" type="button" disabled>Save as PDF</button>
+    </div>
+  </header>
+  <main>
+    <p class="status" id="status" role="status">Extracting page content…</p>
+    <article class="paper" id="paper" hidden>
+      <header class="document-header">
+        <h1 id="title"></h1>
+        <p class="byline" id="byline" hidden></p>
+        <p class="source" dir="ltr"><a id="source"></a></p>
+      </header>
+      <div id="content"></div>
+    </article>
+  </main>
+</body>
+</html>
